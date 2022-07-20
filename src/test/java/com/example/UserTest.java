@@ -54,7 +54,7 @@ class UserTest {
 		assertEquals(1, rowcount);
 	}
 	
-	@Test
+	@Disabled @Test
 	public void test5() {
 		List<UserVo> list = this.userService.selectAllUsers();
 		for(UserVo user : list) {
