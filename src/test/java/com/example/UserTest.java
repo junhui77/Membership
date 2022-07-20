@@ -30,7 +30,7 @@ class UserTest {
 	@Disabled @Test
 	public void test1() {
 		UserVo user = this.userService.selectUser("chulsu");
-		assertEquals("박철수", user.getName());
+		assertEquals(" 한지민", user.getName());
 		System.out.println(user);
 	}
 	
